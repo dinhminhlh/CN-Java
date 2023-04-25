@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;spring-boot-13-spring-boot-thymeleaf-mysql-web&apos;" deleteContents="false" description="Delete resource &apos;spring-boot-13-spring-boot-thymeleaf-mysql-web&apos;" element1="/spring-boot-13-spring-boot-thymeleaf-mysql-web" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1650904631230"/>
+</session>

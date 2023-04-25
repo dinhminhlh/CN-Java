@@ -1,0 +1,7 @@
+1637058811026	Rename type 'HelloConteoller'
+1637058880722	Rename resource 'spring-servlet.xml'
+1637059091943	Rename resource 'HelloWeb-servlet.xml'
+1637059188687	Delete element
+1637059286088	Move 'hello.jsp' to 'WEB-INF'
+1637059319481	Delete element
+1637060372869	Move 'hello.jsp' to 'webapp'

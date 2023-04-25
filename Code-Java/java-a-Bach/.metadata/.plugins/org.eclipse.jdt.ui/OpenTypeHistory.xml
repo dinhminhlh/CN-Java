@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=ContactManager/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;net.codejava.contact.dao{ContactDAO.java[ContactDAO" modifiers="513" timestamp="1636120367158"/>
+    <typeInfo handle="=ContactManager/C:\/Users\/ADMIN\/.m2\/repository\/org\/springframework\/spring-web\/5.1.9.RELEASE\/spring-web-5.1.9.RELEASE.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/spring-web-5.1.9.RELEASE.jar=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-web=/=/maven.version=/5.1.9.RELEASE=/=/maven.scope=/compile=/&lt;org.springframework.web(WebApplicationInitializer.class[WebApplicationInitializer" modifiers="1537" timestamp="1636041918716"/>
+    <typeInfo handle="=CodeJavaApp/C:\/Users\/ADMIN\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.6.1\/spring-data-jpa-2.6.1.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.6.1=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1645504809653"/>
+</typeInfoHistroy>

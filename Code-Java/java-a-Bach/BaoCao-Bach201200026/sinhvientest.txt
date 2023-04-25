@@ -1,0 +1,9 @@
+Topes		Tripp		1		02/09/2002	Summerview	6 7 8
+Saffran		Marsiella	2		10/01/2002	Jana		6.7 7.8 9.8
+Hurleston	Doy			3		03/11/2002	Mallard		3.4 2.1 5.3
+Couttes		Talbert		4		13/02/2002	Kim			3.6 7.5 7.8
+Culleton	Georgy		5		20/12/2002	Hagan		7.5 6.7 7.4
+Rawstorn	Talya		6		08/10/2002	Vahlen		4.5 6.3 7.4
+Dennison	Horace		7		22/11/2002	Atwood		8.9 9.2 9.7
+Anny		Horace		7		22/11/2002	Atwood		5.6 7.2 7.9
+Vinny		Horace		7		22/11/2002	Atwood		4.5 6.8 8.6

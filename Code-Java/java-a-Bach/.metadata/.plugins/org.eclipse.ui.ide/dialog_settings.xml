@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\java\SpringBootCRUDwithThymeleaf"/>
+			<item value="C:\Users\ADMIN\OneDrive\Documents\GitHub\SpringBootCRUDwithThymeleaf"/>
+			<item value="D:\java\spring-boot-tutorial-course-main\springboot-backend"/>
+			<item value="D:\java\spring-boot-tutorial-course-main\springboot-first-app"/>
+			<item value="D:\java\spring-boot-learning-master\spring-boot-13-spring-boot-thymeleaf-mysql-web"/>
+			<item value="D:\java\spring-boot-learning-master\spring-boot-10-@PostMapping-@ModelAttribute-thymeleaf"/>
+			<item value="D:\java\spring-boot-learning-master\spring-boot-9-thymeleaf"/>
+			<item value="D:\java\spring-boot-learning-master\spring-boot-6-@configuration-@Bean"/>
+			<item value="D:\java\MineSweeperr"/>
+			<item value="C:\Users\ADMIN\Downloads\SpringBootRegistrationLogin"/>
+			<item value="D:\ki4\Phan-tich-thiet-ke-thuat-toan\General\Thuchanh\Backtracking"/>
+			<item value="D:\ki4\Phan-tich-thiet-ke-thuat-toan\General\Thuchanh\Context"/>
+			<item value="D:\ki4\Phan-tich-thiet-ke-thuat-toan\General\Thuchanh\Graph1"/>
+			<item value="D:\ki4\Phan-tich-thiet-ke-thuat-toan\General\Thuchanh\Greedy"/>
+			<item value="D:\ki4\Phan-tich-thiet-ke-thuat-toan\General\Thuchanh\Searching"/>
+			<item value="D:\ki4\Phan-tich-thiet-ke-thuat-toan\General\Thuchanh\Beyond"/>
+			<item value="D:\ki4\Phan-tich-thiet-ke-thuat-toan\General\Thuchanh\Sorting"/>
+			<item value="D:\java\MineSweep"/>
+			<item value="D:\java\MineSweeper"/>
+			<item value="D:\java\Flappy"/>
+			<item value="D:\java\FlappyBirdClone"/>
+			<item value="D:\java\Flappy-Bird-Clone-master"/>
+			<item value="D:\ki4\Phan-tich-thiet-ke-thuat-toan\General\Thuchanh\BagQueueStack"/>
+			<item value="D:\ki4\Phan-tich-thiet-ke-thuat-toan\General\Thuchanh\Union-Find"/>
+			<item value="D:\ki4\Phan-tich-thiet-ke-thuat-toan\General\Thuchanh\BinarySearch"/>
+			<item value="D:\java\spring-boot-learning-master\spring-boot-1-helloworld-@Component-@Autowired"/>
+			<item value="D:\ki3\OPP"/>
+			<item value="D:\java\java core"/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="534"/>
+		<item key="DIALOG_Y_ORIGIN" value="57"/>
+		<item key="DIALOG_WIDTH" value="700"/>
+		<item key="DIALOG_HEIGHT" value="645"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="ResourceNavigator">
+		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
+		<item key="ResourceWorkingSetFilter.STORE_WORKING_SET" value="Aggregate for window 1624427116659"/>
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item key="OUTSIDE_LOCATION" value="D:\ki3\OOP"/>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="662"/>
+		<item key="DIALOG_HEIGHT" value="434"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

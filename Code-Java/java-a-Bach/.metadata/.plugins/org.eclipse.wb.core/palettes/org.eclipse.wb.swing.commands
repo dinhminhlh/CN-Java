@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<moveCategory
+		id="org.eclipse.wb.swing.components"
+		nextCategory="org.eclipse.wb.swing.layouts"/>
+	<moveEntry
+		id="org.eclipse.wb.swing.components.awt java.awt.TextField"
+		category="org.eclipse.wb.swing.JGoodies"/>
+</commands>

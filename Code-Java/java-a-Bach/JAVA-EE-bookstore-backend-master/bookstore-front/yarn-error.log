@@ -1,0 +1,80 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add bootstarp
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\DevDesktop\drush;C:\development\maven\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\Java\jre1.8.0_92\bin;C:\ctags\;C:\Users\nazmul\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\CodeBlocks\MinGW\bin;C:\Program Files\CMake\bin;C:\development\wildfly-10.1.0.Final\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Users\nazmul\Anaconda3;C:\Users\nazmul\Anaconda3\Scripts;C:\Users\nazmul\Anaconda3\Library\bin;C:\Users\nazmul\AppData\Local\atom\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\nazmul\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MongoDB\Server\3.4\bin;C:\Users\nazmul\AppData\Local\Yarn\bin;C:\Users\nazmul\AppData\Roaming\npm
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.10.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "bookstore-front",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build --prod",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/animations": "^5.2.0",
+      "@angular/common": "^5.2.0",
+      "@angular/compiler": "^5.2.0",
+      "@angular/core": "^5.2.0",
+      "@angular/forms": "^5.2.0",
+      "@angular/http": "^5.2.0",
+      "@angular/platform-browser": "^5.2.0",
+      "@angular/platform-browser-dynamic": "^5.2.0",
+      "@angular/router": "^5.2.0",
+      "core-js": "^2.4.1",
+      "rxjs": "^5.5.6",
+      "zone.js": "^0.8.19"
+    },
+    "devDependencies": {
+      "@angular/cli": "~1.7.3",
+      "@angular/compiler-cli": "^5.2.0",
+      "@angular/language-service": "^5.2.0",
+      "@types/jasmine": "~2.8.3",
+      "@types/jasminewd2": "~2.0.2",
+      "@types/node": "~6.0.60",
+      "codelyzer": "^4.0.1",
+      "jasmine-core": "~2.8.0",
+      "jasmine-spec-reporter": "~4.2.1",
+      "karma": "~2.0.0",
+      "karma-chrome-launcher": "~2.2.0",
+      "karma-coverage-istanbul-reporter": "^1.2.1",
+      "karma-jasmine": "~1.1.0",
+      "karma-jasmine-html-reporter": "^0.2.2",
+      "protractor": "~5.1.2",
+      "ts-node": "~4.1.0",
+      "tslint": "~5.9.1",
+      "typescript": "~2.5.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find package "bootstarp" on the "npm" registry.
+      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at NpmResolver.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:51625:15)
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:109:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:188:7)

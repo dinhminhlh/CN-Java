@@ -1,0 +1,45 @@
+Info: Nothing to build for BaiTap
+Info: Nothing to build for BaiTap
+Info: Nothing to build for BaiTap
+Info: Nothing to build for BaiTap
+Info: Nothing to build for BaiTap
+09:33:08 **** Rebuild of configuration Debug for project Testtt ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Testtt.o" "..\\src\\Testtt.cpp" 
+g++ -o Testtt.exe "src\\Testtt.o" 
+Info: Nothing to build for Testtt
+Info: Nothing to build for BaiTap
+09:35:39 **** Rebuild of configuration Debug for project baiTap ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\baiTap.o" "..\\src\\baiTap.c" 
+gcc -o baiTap.exe "src\\baiTap.o" 
+Info: Nothing to build for baiTap
+09:38:01 **** Rebuild of configuration Debug for project test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.cpp" 
+g++ -o test.exe "src\\test.o" 
+Info: Nothing to build for test
+09:40:45 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Bai1.o" "..\\src\\Bai1.cpp" 
+g++ -o test.exe "src\\Bai1.o" "src\\test.o" 
+src\test.o: In function `main':
+D:\ki3\OOP\Debug/../src/test.cpp:12: multiple definition of `main'
+src\Bai1.o:D:\ki3\OOP\Debug/../src/Bai1.cpp:10: first defined here
+collect2.exe: error: ld returned 1 exit status
+09:41:19 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+g++ -o test.exe "src\\Bai1.o" "src\\test.o" 
+src\test.o: In function `main':
+D:\ki3\OOP\Debug/../src/test.cpp:12: multiple definition of `main'
+src\Bai1.o:D:\ki3\OOP\Debug/../src/Bai1.cpp:10: first defined here
+collect2.exe: error: ld returned 1 exit status
+09:41:39 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Bai1.o" "..\\src\\Bai1.cpp" 
+g++ -o test.exe "src\\Bai1.o" 
+Info: Nothing to build for test
+09:42:09 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Bai1.o" "..\\src\\Bai1.cpp" 
+g++ -o test.exe "src\\Bai1.o" 

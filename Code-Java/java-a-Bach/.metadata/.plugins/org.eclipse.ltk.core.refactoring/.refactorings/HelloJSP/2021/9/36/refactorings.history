@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;profile.jsp&apos; to &apos;user&apos;" description="Move &apos;profile.jsp&apos; to &apos;user&apos;" destination="src/main/webapp/user" element1="src/main/webapp/profile.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1630766872577" updateReferences="true"/>
+</session>

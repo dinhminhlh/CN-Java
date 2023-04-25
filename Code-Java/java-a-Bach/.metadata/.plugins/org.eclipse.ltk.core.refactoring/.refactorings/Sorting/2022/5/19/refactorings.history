@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;tinyPQ.txt&apos; to &apos;BaoCao-Bach201200026&apos;&#x0D;&#x0A;- Original project: &apos;Sorting&apos;&#x0D;&#x0A;- Destination element: &apos;BaoCao-Bach201200026&apos;&#x0D;&#x0A;- Original element: &apos;tinyPQ.txt&apos;" description="Copy file" element1="tinyPQ.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1651721328352" target="/BaoCao-Bach201200026" units="0" version="1.0"/>
+</session>

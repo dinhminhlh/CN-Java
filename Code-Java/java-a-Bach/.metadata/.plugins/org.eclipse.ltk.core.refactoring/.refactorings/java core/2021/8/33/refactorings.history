@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;file.json&apos; to &apos;java core&apos;" description="Move &apos;file.json&apos; to &apos;java core&apos;" destination="/java core" element1="/aptech/src/file.json" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1628947837436" updateReferences="true"/>
+</session>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;SpringBootCRUDwithThymeleaf&apos;" deleteContents="true" description="Delete resource &apos;SpringBootCRUDwithThymeleaf&apos;" element1="/SpringBootCRUDwithThymeleaf" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1660705248012"/>&#x0A;<refactoring comment="Rename resource &apos;MyWebApp&apos; to &apos;SpringBootCRUDwithThymeleaf&apos;" description="Rename resource &apos;MyWebApp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/MyWebApp" name="SpringBootCRUDwithThymeleaf" stamp="1660705258523" updateReferences="true"/>
+</session>

@@ -1,0 +1,14 @@
+1639153228963	Copy compilation unit
+1639153249339	Delete element
+1639153457280	Rename type 'Feature'
+1639153983299	Rename type 'IFeature'
+1639153995395	Rename type 'FreatureIplm'
+1639154044861	Encapsulate field 'bookList'
+1639154647964	Delete element
+1639154693120	Encapsulate field 'bookList'
+1639154811329	Encapsulate field 'books'
+1639154893258	Encapsulate field 'books'
+1639156766944	Move file
+1639156783461	Move 'books.txt' to 'BookMan'
+1639191081311	Convert local variable 'fileInputStream' to field
+1639191093734	Convert local variable 'objectInputStream' to field

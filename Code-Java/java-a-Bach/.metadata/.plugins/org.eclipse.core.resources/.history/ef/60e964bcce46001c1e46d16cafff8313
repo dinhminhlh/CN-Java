@@ -1,0 +1,12 @@
+package com.spring5.practice.config;
+
+@EnableWebMvc
+@Configuration
+@ComponentScan(basePackages = {"com.spring5.practice.controllers"})
+public class ServletConfig implements WebMvcConfigurer {
+
+    // Configuration to render VIEWS
+    public void configureViewResolvers(ViewResolverRegistry registry) {
+        registry.jsp("/WEB-INF/views/", ".jsp");
+    }
+}
