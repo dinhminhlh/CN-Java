@@ -1,7 +1,11 @@
 package Bai2;
 
 import javax.swing.*;
+
+import Bai1.Student;
+
 import java.awt.*;
+import java.util.ArrayList;
 
 public class StudentGUI extends JFrame {
 
@@ -9,7 +13,8 @@ public class StudentGUI extends JFrame {
     private JTextField nameField, mathField, physicsField, englishField, averageField;
     private JRadioButton maleButton, femaleButton;
     private JButton insertButton, averageButton, exitButton;
-
+    private ArrayList<Student> students = new ArrayList<Student>();
+    private int id = 0;
     public StudentGUI() {
         super("Input Marks - LeDinhMinh - 211204113 - CNTT3K62");
 
@@ -71,12 +76,8 @@ public class StudentGUI extends JFrame {
 
 
         insertButton.addActionListener(e -> {
-
-            String name = nameField.getText();
-            String gender = maleButton.isSelected() ? "Male" : "Female";
-            double math = Double.parseDouble(mathField.getText());
-            double physics = Double.parseDouble(physicsField.getText());
-            double english = Double.parseDouble(englishField.getText());
+        	inputStudentInfo();
+           
 
 
             JOptionPane.showMessageDialog(this, "Input successful");
@@ -109,7 +110,20 @@ public class StudentGUI extends JFrame {
         setLocationRelativeTo(null);
         setVisible(true);
     }
-
+    private void inputStudentInfo() {
+    	 String name = nameField.getText();
+         String gender = maleButton.isSelected() ? "Male" : "Female";
+         float math = Float.parseFloat(mathField.getText());
+         float physics = Float.parseFloat(physicsField.getText());
+         float english = Float.parseFloat(englishField.getText());
+        Student student = new Student(id, name, math, physics, english);
+        id++;
+        students.add(student);
+        for(int i = 0; i < students.size(); i++) {
+        	System.out.printf(students.get(i).toString());
+        }
+        
+    }
     public static void main(String[] args) {
         new StudentGUI();
     }

@@ -5,7 +5,7 @@ public class MainController {
     private Account account;
     private ArrayList<Student> students;
     private MainView view;
-
+    private int id = 0;
     public MainController(Account account, ArrayList<Student> students, MainView view) {
         this.account = account;
         this.students = students;
@@ -60,12 +60,12 @@ public class MainController {
 
     private void inputStudentInfo() {
         view.showInputStudentInfoMessage();
-        int id = view.getStudentId();
         String name = view.getStudentName();
         float math = view.getStudentMathScore();
         float physics = view.getStudentPhysicsScore();
         float english = view.getStudentEnglishScore();
         Student student = new Student(id, name, math, physics, english);
+        id++;
         students.add(student);
     }
 

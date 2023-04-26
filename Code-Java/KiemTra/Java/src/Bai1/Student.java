@@ -37,4 +37,8 @@ public class Student {
     public float getAverage() {
         return (this.math + this.physics + this.english) / 3;
     }
+    
+    public String toString() {
+    	return id + " " + name + " " + math + " " + physics + " " + english + "\n";
+    }
 }
