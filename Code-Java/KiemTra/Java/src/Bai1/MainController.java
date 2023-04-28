@@ -3,12 +3,12 @@ import java.util.ArrayList;
 
 public class MainController {
     private Account account;
-    private ArrayList<Student> students;
+    private ArrayList<Book> books;
     private MainView view;
     private int id = 0;
-    public MainController(Account account, ArrayList<Student> students, MainView view) {
+    public MainController(Account account, ArrayList<Book> books, MainView view) {
         this.account = account;
-        this.students = students;
+        this.books = books;
         this.view = view;
     }
 
@@ -22,16 +22,16 @@ public class MainController {
             choice = view.showMainMenu();
             switch (choice) {
                 case 1:
-                    inputStudentInfo();
+                    inputBookInfo();
                     break;
                 case 2:
-                    viewStudentInfo();
+                    viewBookInfo();
                     break;
                 case 3:
-                    searchStudentById();
+                	getSearchBookYear();
                     break;
                 case 4:
-                    calculateAverageScore();
+//                    getShowQuantity();
                     break;
                 case 5:
                     view.showGoodbyeMessage();
@@ -58,40 +58,37 @@ public class MainController {
         return false;
     }
 
-    private void inputStudentInfo() {
-        view.showInputStudentInfoMessage();
-        String name = view.getStudentName();
-        float math = view.getStudentMathScore();
-        float physics = view.getStudentPhysicsScore();
-        float english = view.getStudentEnglishScore();
-        Student student = new Student(id, name, math, physics, english);
+    private void inputBookInfo() {
+        view.showInputBookInfoMessage();
+        String type = view.getBookType();
+        String name = view.getBookName();
+        String author = view.getAuthorName();
+        int year = view.getPublicYear();
+        int number = view.getPageNumber();
+        Book student = new Book(id, type, name, author, year, number);
         id++;
-        students.add(student);
+        books.add(student);
     }
 
-    private void viewStudentInfo() {
-        for (Student student : students) {
+    private void viewBookInfo() {
+        for (Book student : books) {
             view.showStudentInfo(student);
         }
     }
 
-    private void searchStudentById() {
-        int searchId = view.getSearchStudentId();
-        for (Student student : students) {
-            if (student.getId() == searchId) {
+    private void getSearchBookYear() {
+        int searchYear = view.getSearchBookYear();
+        for (Book student : books) {
+            if (student.getPublicYear() == searchYear) {
                 view.showStudentInfo(student);
                 return;
             }
         }
-        view.showStudentNotFoundMessage(searchId);
+        view.showStudentNotFoundMessage(searchYear);
     }
-
-    private void calculateAverageScore() {
-        float totalScore = 0;
-        for (Student student : students) {
-            totalScore += student.getAverage();
-        }
-        float averageScore = totalScore / students.size();
-        view.showAverageScore(averageScore);
-    }
+    
+//    private void getShowQuantity() {
+//    	view.getQuantity();
+//    }
+    
 }

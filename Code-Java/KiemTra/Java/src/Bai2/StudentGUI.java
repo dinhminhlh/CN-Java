@@ -11,9 +11,9 @@ public class StudentGUI extends JFrame {
 
     private JLabel nameLabel, genderLabel, mathLabel, physicsLabel, englishLabel, averageLabel;
     private JTextField nameField, mathField, physicsField, englishField, averageField;
-    private JRadioButton maleButton, femaleButton;
+    private JRadioButton maleButton, femaleButton, checkButton;
     private JButton insertButton, averageButton, exitButton;
-    private ArrayList<Student> students = new ArrayList<Student>();
+    private ArrayList<Book> books = new ArrayList<Book>();
     private int id = 0;
     public StudentGUI() {
         super("Input Marks - LeDinhMinh - 211204113 - CNTT3K62");
@@ -36,9 +36,11 @@ public class StudentGUI extends JFrame {
 
         maleButton = new JRadioButton("Male");
         femaleButton = new JRadioButton("Female");
+        checkButton = new JRadioButton("Check");
         ButtonGroup genderGroup = new ButtonGroup();
         genderGroup.add(maleButton);
         genderGroup.add(femaleButton);
+        genderGroup.add(checkButton);
 
 
         insertButton = new JButton("Insert");
@@ -48,6 +50,7 @@ public class StudentGUI extends JFrame {
         JPanel genderPanel = new JPanel(new FlowLayout());
         genderPanel.add(maleButton);
         genderPanel.add(femaleButton);
+        genderPanel.add(checkButton);
 
 
         JPanel buttonPanel = new JPanel(new FlowLayout());
@@ -112,15 +115,16 @@ public class StudentGUI extends JFrame {
     }
     private void inputStudentInfo() {
     	 String name = nameField.getText();
-         String gender = maleButton.isSelected() ? "Male" : "Female";
+    	 String gender = maleButton.isSelected() ? "Male" : (femaleButton.isSelected() ? "Female" : "Check");
+
          float math = Float.parseFloat(mathField.getText());
          float physics = Float.parseFloat(physicsField.getText());
          float english = Float.parseFloat(englishField.getText());
-        Student student = new Student(id, name, math, physics, english);
+         Book books = new Book(id, name, math, physics, english);
         id++;
-        students.add(student);
-        for(int i = 0; i < students.size(); i++) {
-        	System.out.printf(students.get(i).toString());
+        books.add(student);
+        for(int i = 0; i < books.size(); i++) {
+        	System.out.printf(books.get(i).toString());
         }
         
     }

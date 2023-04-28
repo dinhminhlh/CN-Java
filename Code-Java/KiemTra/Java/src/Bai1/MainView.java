@@ -1,4 +1,5 @@
 package Bai1;
+
 import java.util.Scanner;
 
 public class MainView {
@@ -27,20 +28,20 @@ public class MainView {
     }
 
     public int showMainMenu() {
-        System.out.println("----------- Quan Ly Diem -----------");
-        System.out.println("1. Nhap Thong Tin");
-        System.out.println("2. Xem Thong Tin");
-        System.out.println("3. Tim theo Ma");
-        System.out.println("4. Tinh Diem Trung Binh");
+        System.out.println("----------- Quan Ly  -----------");
+        System.out.println("1. Nhap moi sach");
+        System.out.println("2. Xem thong tin sach");
+        System.out.println("3. Tim sach theo nam xuat ban");
+        System.out.println("4. Xem so luong sach");
         System.out.println("5. Ket Thuc");
-        System.out.println("<copyright: LeDinhMinh-211204113-CNTT3K62>");
         System.out.println("-------------------------------------");
         System.out.println("Chon cac so tuong ung tren menu de thuc hien: ");
+        System.out.println("<copyright: LeDinhMinh-211204113-CNTT3K62>");
         return scanner.nextInt();
     }
 
-    public void showInputStudentInfoMessage() {
-        System.out.println("Nhap thong tin hoc sinh:");
+    public void showInputBookInfoMessage() {
+        System.out.println("Nhap thong tin sach:");
     }
 
     public int getStudentId() {
@@ -48,48 +49,52 @@ public class MainView {
         return scanner.nextInt();
     }
 
-    public String getStudentName() {
-        System.out.print("Ten: ");
+    public String getBookType() {
+        System.out.print("Loai sach: ");
         scanner.nextLine();
         return scanner.nextLine();
     }
 
-    public float getStudentMathScore() {
-        System.out.print("Diem Toan: ");
-        return scanner.nextFloat();
+    public String getBookName() {
+        System.out.print("Ten sach: ");
+        return scanner.nextLine();
     }
 
-    public float getStudentPhysicsScore() {
-        System.out.print("Diem Ly: ");
-        return scanner.nextFloat();
+    public String getAuthorName() {
+        System.out.print("Ten tac gia: ");
+        return scanner.nextLine();
     }
 
-    public float getStudentEnglishScore() {
-        System.out.print("Diem Anh: ");
-        return scanner.nextFloat();
+    public int getPublicYear() {
+        System.out.print("Nam xuat ban: ");
+        return scanner.nextInt();
     }
 
-    public void showStudentInfo(Student student) {
-        System.out.printf("ID: %d\nTen: %s\nDiem Toan: %.2f\nDiem Ly: %.2f\nDiem Anh: %.2f\n",
-                student.getId(), student.getName(), student.getMath(), student.getPhysics(), student.getEnglish());
+    public int getPageNumber() {
+        System.out.print("So trang: ");
+        return scanner.nextInt();
     }
 
-    public int getSearchStudentId() {
-        System.out.print("Nhap ID hoc sinh can tim: ");
+    public void showStudentInfo(Book student) {
+        System.out.printf("ID: %d\nLoai sach: %s\nTen sach: %s\nTac gia: %s\nNam xuat ban: %d\nSo trang: %d\n",
+                student.getId(), student.getBookType(), student.getBookName(), student.getAuthorName(),
+                student.getPublicYear(), student.getPageNumber());
+    }
+
+    public int getSearchBookYear() {
+        System.out.print("Nhap sach can tim: ");
         return scanner.nextInt();
     }
 
     public void showStudentNotFoundMessage(int studentId) {
-        System.out.printf("Khong tim thay hoc sinh co ID la %d\n", studentId);
-    }
-
-    public void showAverageScore(float averageScore) {
-        System.out.printf("Diem trung binh cua lop la: %.2f\n", averageScore);
+        System.out.printf("Khong tim thay sach co nam xuat ban la %d\n", studentId);
     }
 
     public void showGoodbyeMessage() {
         System.out.println("Cam on ban da su dung chuong trinh <3");
     }
-
-
+    
+//    public void getQuantity() {
+//    	System.out.println(getQuantity);
+//    }
 }
